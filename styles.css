@@ -1,0 +1,103 @@
+
+
+/* sets border and padding within sizing */
+/* color pallette:
+    main background:#d2b48c 
+    header/footer:#b99976
+    text: white
+    */
+* {
+  box-sizing: border-box;
+  font-family: "century gothic",arial;
+  color: white;
+}
+
+header {
+  background-color: 	#B99976;
+text-align: center;
+padding: 5px 0;
+width: 100%;
+margin: 0 auto;
+border-radius: 10px;
+;
+}
+h1 {
+  font-size: 48;
+}
+header > p {
+  font-size: 24;
+}
+body {
+  background-color: #d2b48c;
+}
+#image {
+  width: auto;
+  max-width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0
+}
+#img-div {
+  margin: 10px 1;
+  background-color:#b99976;
+  border-radius: 10px;
+}
+figcaption {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20;
+}
+#tribute-info{
+background-color:#B99976; 
+  border-radius: 10px;
+  padding: 5px
+}
+#tribute-info > p {
+  margin: 10px;
+  text-align: center;
+}
+li {
+  padding-top: 5px
+}
+ul {
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+#gallery-header {
+  text-align: center;
+  margin-top: 10px;
+  padding: 1px 0;
+  background-color:#B99976;
+  border-radius: 10px
+}
+#image-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #B99976;
+  border-radius: 10px;
+  padding: 10px 0;
+  width: 100%;
+  margin: 10px 1px;
+  
+}
+#image-gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+#tribute-div{
+  background-color: #B99976;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+}
+a{
+  color: brown;
+}
+a:hover {
+  color: white
+}
+
